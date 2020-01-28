@@ -3,6 +3,12 @@ body {
   color: white;
   font-family: "IBM Plex Mono", monospace;
 }
+.card-btn {
+  margin-right: 40px;
+}
+a:hover {
+  text-decoration: none;
+}
 
 .cards-container {
   margin: 5rem;
@@ -10,9 +16,9 @@ body {
 .card {
   background-color: #100e17;
   /* margin: 0 auto; */
-  width: 35rem;
+  /* width: 35rem;
   float: left;
-  margin-right: 25px;
+  margin-right: 25px; */
   /* margin-left: 40px; */
   /* margin-right: 22rem;
   margin-left: 22rem; */
