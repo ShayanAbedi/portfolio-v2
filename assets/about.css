@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+}
+.about-container {
+  text-align: center;
+  margin-top: 10rem;
+}
+.about-title {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.about-title span {
+  color: #708090;
+}
+.about-body h5 {
+  margin: 5rem;
+}
