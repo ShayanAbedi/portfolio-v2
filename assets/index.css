@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+}
+.home-container {
+  color: #708090;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20rem;
+}
+.social {
+  margin-top: 2rem;
+}
