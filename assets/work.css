@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.cards-container {
+  margin: 5rem;
+}
+.card {
+  background-color: #100e17;
+  /* margin: 0 auto; */
+  width: 35rem;
+  float: left;
+  margin-right: 25px;
+  /* margin-left: 40px; */
+  /* margin-right: 22rem;
+  margin-left: 22rem; */
+}
