@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+}
+
+.navbar-brand span {
+  border: 1px white solid;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+h4 {
+  margin-top: 13rem;
+  text-align: center;
+/* }
+https://codepen.io/apetrov/pen/EGmal */
