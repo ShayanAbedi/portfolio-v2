@@ -84,6 +84,7 @@ ul {
 }
 .card-btn {
   margin-right: 40px;
+  display: inline-block;
 }
 
 .card {
@@ -109,11 +110,6 @@ ul {
 @media screen and (max-width: 680px) {
   .card {
     margin: 2rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  .card-btn {
-    margin-right: 10px;
   }
 }
 
