@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+}
+.navbar-brand span {
+  border: 1px rgba(194, 188, 188, 0.351) solid;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  font-size: 24px;
+  transition: 0.6s;
+}
+.navbar-brand span:hover {
+  background-color: #1a79ffe7;
+  color: #000;
+  border: 1px black solid;
+}
+a:hover {
+  text-decoration: none;
+}
+.home-links {
+  transition: 0.6s;
+}
+
+.home-links:hover {
+  transform: scale(1.3);
+}
+
+/*
+Home page 
+*/
+.home-container {
+  color: #708090;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  margin: 15rem auto;
+}
+.social {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 350px) {
+  .home-container {
+    font-size: 25px;
+    margin: 5rem auto;
+  }
+}
+/*
+About page 
+*/
+.about-container {
+  text-align: center;
+  margin-top: 10rem;
+}
+.about-title {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.about-title span {
+  color: #708090;
+}
+.about-body h5 {
+  margin: 10rem;
+}
+
+@media screen and (max-width: 631px) {
+  .about-body h5 {
+    margin: 4rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .about-body h5 {
+    margin: 1rem;
+  }
+}
+/*
+Work page 
+*/
+.work-container {
+  margin-top: 3rem;
+}
+ul {
+  list-style: none;
+}
+.card-btn {
+  margin-right: 40px;
+}
+
+.card {
+  background-color: #100e17;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  transition: 0.6s;
+}
+.card:hover {
+  transform: scale(1.05);
+  border: 2px solid #1a79ffe7;
+}
+.card-body h5 {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.contact-title {
+  margin-top: 13rem;
+  text-align: center;
+}
+@media screen and (max-width: 680px) {
+  .card {
+    margin: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card-btn {
+    margin-right: 10px;
+  }
+}
+
+/*
+Contact page 
+*/
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+.boxes div {
+  font-size: 2rem;
+  border: 3px #fff solid;
+  border-radius: 30px;
+  padding: 1.5rem 2.5rem;
+  margin-bottom: 3rem;
+  transition: all 0.5s ease-out;
+}
+.boxes div:hover {
+  padding: 0.5rem 1.5rem;
+  background: #ffffff;
+  color: #000;
+}
+.boxes div:hover span {
+  color: #000;
+}
