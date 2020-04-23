@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
 .navbar-brand span {
   border: 1px rgba(194, 188, 188, 0.351) solid;
@@ -102,6 +102,9 @@ ul {
   margin-right: 1rem;
   margin-bottom: 3rem;
   transition: 0.6s;
+}
+.card > img {
+  max-height: 340px;
 }
 .card:hover {
   transform: scale(1.05);
