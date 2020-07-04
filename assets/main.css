@@ -18,6 +18,10 @@ body {
 a:hover {
   text-decoration: none;
 }
+
+/*
+Home page 
+*/
 .home-links {
   transition: 0.6s;
 }
@@ -25,10 +29,6 @@ a:hover {
 .home-links:hover {
   transform: scale(1.3);
 }
-
-/*
-Home page 
-*/
 .home-container {
   color: #708090;
   font-size: 36px;
@@ -39,12 +39,32 @@ Home page
 .social {
   margin-top: 2rem;
 }
+.download_resume {
+  background-color: #1a79ffe7;
+  font-size: 1.1rem;
+  padding: 0.4rem;
+  border-radius: 3rem;
+  width: 8rem;
+  margin: 10px auto;
+}
+.download_resume a {
+  color: rgb(178, 190, 201);
+}
+.download_resume:hover {
+  color: rgb(178, 190, 201);
+}
+
 @media screen and (max-width: 900px) {
   .home-container {
     font-size: 25px;
     margin: 15rem 1rem auto 1rem;
     height: 100%;
     overflow: hidden;
+  }
+  .download_resume {
+    padding: 0.1rem;
+    font-size: 0.9rem;
+    width: 6rem;
   }
 }
 /*
