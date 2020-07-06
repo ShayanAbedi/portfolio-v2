@@ -124,7 +124,8 @@ ul {
   transition: 0.6s;
 }
 .card > img {
-  max-height: 340px;
+  height: 340px;
+  /* max-height: 340px; */
 }
 .card:hover {
   transform: scale(1.05);
