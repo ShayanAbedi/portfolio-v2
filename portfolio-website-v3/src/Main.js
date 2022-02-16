@@ -2,6 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faAngleDown,
+  faEnvelope,
+  faFileArrowDown,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Container = styled.div`
   font-size: 36px;
@@ -21,10 +26,10 @@ const Main = () => {
   return (
     <Container>
       <div>
-        Hello 👋🏼
+        Hi 👋🏼
         <br />
         My name is Shayan <br />
-        A Software Developer living in Ontario, Canada 🇨🇦
+        A Software Developer based in Ontario, Canada 🇨🇦
         <br />
         <br />
         Welcome to my Portfolio Website
@@ -35,21 +40,30 @@ const Main = () => {
           rel="noreferrer"
           href="https://github.com/ShayanAbedi"
         >
-          <FontAwesomeIcon icon={faGithub} color="black" />
+          <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/shayanabd/"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="black" />
+          <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <br />
-        {/* <!-- <div class="download_resume home-links">
-        <a target="_blank" href="./AbediShayan_Resume.pdf" download>
-          <i class="fas fa-file-download"></i> Resume
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:shayanabedi.dev@gmail.com"
+        >
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
-      </div> --> */}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="./public/AbediShayan_Resume.pdf"
+          download
+        >
+          <FontAwesomeIcon icon={faFileArrowDown} />
+        </a>
       </SocialLinks>
     </Container>
   );
